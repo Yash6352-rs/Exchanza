@@ -1,0 +1,56 @@
+{
+  "expo": {
+    "name": "Exchanza",
+    "slug": "Exchanza",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/exchanza-icon-foreground.png",
+    "scheme": "exchanza",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.anonymous.Exchanza"
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "adaptiveIcon": {
+        "backgroundColor": "#FFFFFF",
+        "foregroundImage": "./assets/images/exchanza-icon-foreground.png"
+      },
+      "edgeToEdgeEnabled": true,
+      "predictiveBackGestureEnabled": false,
+      "package": "com.anonymous.Exchanza"
+    },
+    "web": {
+      "output": "static",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/images/exchanza_logo.png",
+          "imageWidth": 250,
+          "resizeMode": "contain",
+          "backgroundColor": "#fff",
+          "dark": {
+            "backgroundColor": "#fff"
+          }
+        }
+      ],
+      "expo-web-browser"
+    ],
+    "experiments": {
+      "typedRoutes": true,
+      "reactCompiler": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "9e241d24-a4ca-45cb-a7a1-6f5b8860b33a"
+      }
+    }
+  }
+}
