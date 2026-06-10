@@ -712,14 +712,7 @@ Add data and test them properly in the app (start from start)
 Then put live the admin module, PDF server, Backend server
 Then EAS Build th expo final app to make app live
 ________________________________________________________
-
-REMAINING THINGS
-
-Check one all things working or not
-Add data and test them properly in the app (start from start)
-Then put live the admin module, PDF server, Backend server
-Then EAS Build th expo final app to make app live                               
-                 
+              
          
 
 stitch project link
