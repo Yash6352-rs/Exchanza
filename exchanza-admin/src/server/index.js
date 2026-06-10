@@ -19,6 +19,10 @@ app.use(express.urlencoded({
 
 app.use("/api/pdf", analyticsPdfRoutes);
 
+app.get("/", (req, res) => {
+    res.send("PDF Server Running");
+});
+
 app.listen(5000, () => {
     console.log("PDF Server Running on 5000");
 });

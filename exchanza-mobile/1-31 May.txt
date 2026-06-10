@@ -717,8 +717,11 @@ ________________________________________________________
          
 
 stitch project link
-https://stitch.withgoogle.com/projects/9705942956988872532
+https://stitch.withgoogle.com/projects/9705942956988872532  
 
 
 
-git remote set-url origin https://github.com/Yash6352-rs/Exchanza
+git remote set-url origin https://github.com/yashp-nimblechapps/Exchanza.git
+     
+        
+            

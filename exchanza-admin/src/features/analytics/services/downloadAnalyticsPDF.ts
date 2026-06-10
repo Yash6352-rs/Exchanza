@@ -74,7 +74,7 @@ export const downloadAnalyticsPDF = async ({
 
         // SEND
         const response = await fetch(
-            "http://localhost:5000/api/pdf/analytics",
+            "https://exchanza-pdf-server.onrender.com/api/pdf/analytics",
             {
                 method: "POST",
 
