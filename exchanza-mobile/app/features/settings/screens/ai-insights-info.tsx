@@ -252,7 +252,7 @@ export default function AIInsightsScreen() {
                     <View className="flex-1 ml-4">
                         <Text
                             style={{
-                                color: theme.subText || lightColors.subText,
+                                color: theme.text || lightColors.text,
                                 fontWeight: "700",
                                 fontSize: 12,
                                 letterSpacing: 1,
