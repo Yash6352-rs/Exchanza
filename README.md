@@ -9,7 +9,7 @@ The **Mobile Application**, built with React Native (Expo), is designed for user
 The **Admin Dashboard**, built with React.js for the web, provides centralized platform management capabilities, including user moderation, post and trade moderation, tag management, analytics reporting, account restrictions, notification management, public announcements, report handling, and overall platform monitoring. Together, these modules create a complete ecosystem for managing skill and service exchanges in a secure and scalable manner.
 
 Together, these modules create a complete ecosystem for managing skill and service exchanges while ensuring platform security, transparency, scalability, and a seamless user experience.
-
+ 
  ---
 
  Exchanza Ecosystem
