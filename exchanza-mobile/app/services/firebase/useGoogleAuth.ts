@@ -12,8 +12,8 @@ export const useGoogleAuth = () => {
   const router = useRouter();
 
   const [request, response, promptAsync] = Google.useAuthRequest({
-    clientId:
-      "285434732061-45i77h3e36pb19p951os175esctqc7mo.apps.googleusercontent.com",
+    androidClientId: "949037840576-adumav3f2nro4bkf8nkcgb38mckfbfna.apps.googleusercontent.com",
+    webClientId: "949037840576-aicibf01i0hk42ensu5k4ptudvbjlq7r.apps.googleusercontent.com",
   });
 
   useEffect(() => {

@@ -53,7 +53,7 @@ export const AppButton = ({title, onPress, loading, disabled, variant, opacity}:
       activeOpacity={0.85}
       onPress={onPress}
       disabled={isDisabled}
-      className={`w-full h-14 rounded-2xl py-4 items-center justify-center 
+      className={`w-full h-16 rounded-2xl py-4 items-center justify-center 
         ${isDisabled ? "opacity-60" : ""} ${styles.container}`}
       style={[ styles.style,
         {

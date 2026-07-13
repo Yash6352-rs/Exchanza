@@ -12,7 +12,7 @@ export default function Welcome() {
 
   return (
     <View
-      className="flex-1 items-center justify-between px-6 py-12 mb-8"
+      className="flex-1 items-center justify-between px-6 py-12 mb-3"
       style={{ backgroundColor: theme?.background || lightColors.background }}
     >
       <StatusBar style={isDark ? "light" : "dark"} />
@@ -21,15 +21,15 @@ export default function Welcome() {
       <View className="items-center">
 
         {/* Logo */}
-        <View className="mt-14">
+        <View className="mt-16">
           <Image
             source={isDark ? require("../../../../assets/images/exchanza_dark_bg_1.png") : require("../../../../assets/images/exchanza_light_1.png")}
-            style={{ width: 355, height: 520 }}       
+            style={{ width: 360, height: 530 }}       
           />
         </View>
 
         {/* App Name */}
-        <Text className="text-4xl -mt-2 font-bold" style={{ color: theme?.primary || lightColors.primary }}>
+        <Text className="text-[40px] font-bold" style={{ color: theme?.primary || lightColors.primary }}>
           Exchanza
         </Text>
 
@@ -43,7 +43,7 @@ export default function Welcome() {
       {/* Bottom Button */}
       <View className="w-full">
         <AppButton
-          className="rounded-3xl"
+          className="rounded-3xl -mt-3"
           title="Get Started"
           onPress={() => router.push("/features/auth/screens/login")}
         />

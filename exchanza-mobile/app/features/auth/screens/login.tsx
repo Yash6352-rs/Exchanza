@@ -84,13 +84,13 @@ export default function LoginScreen() {
       <StatusBar style={isDark ? "light" : "dark"} />
 
       {/* Top Logo */}
-      <View className="items-center mb-6 mt-5">
+      <View className="items-center mb-6 mt-12">
         <Image
           source={require("../../../../assets/images/exchanza_logo.png")}
-          style={{ width: 120, height: 120 }}
+          style={{ width: 130, height: 130 }}
         />
 
-        <Text className="text-3xl -mt-2 font-bold" style={{ color: theme?.primary || lightColors.primary }}>
+        <Text className="text-[38px] -mt-2 font-bold" style={{ color: theme?.primary || lightColors.primary }}>
           Exchanza
         </Text>
 

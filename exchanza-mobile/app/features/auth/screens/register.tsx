@@ -58,13 +58,13 @@ export default function RegisterScreen() {
       style={{ backgroundColor: theme?.background || lightColors.background }}
     >
       {/* Top Logo */}
-      <View className="items-center justify-center mt-4 mb-4 gap-2">
+      <View className="items-center justify-center mt-5 mb-4 gap-2">
         <Image
            source={require("../../../../assets/images/exchanza_logo.png")}
-            style={{ width:90, height:90 }}
+            style={{ width:110, height:110 }}
         />
 
-        <Text className="text-3xl -mt-3 font-bold" style={{ color: theme?.primary || lightColors.primary }}>
+        <Text className="text-[35px] -mt-4 font-bold" style={{ color: theme?.primary || lightColors.primary }}>
           Exchanza
         </Text>
 

@@ -9,7 +9,7 @@ export const generateTradeInsight = async ({
 }) => {
   try {
     const response = await fetch(
-        "http://192.168.1.213:5000/api/ai/generate-trade-insight",
+        "http://10.193.202.53:5000/api/ai/generate-trade-insight",
       {
         method: "POST",
         headers: {
