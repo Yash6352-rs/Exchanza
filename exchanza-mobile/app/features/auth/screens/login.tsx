@@ -16,7 +16,7 @@ import { StatusBar } from "expo-status-bar";
 import { doc, getDoc } from "firebase/firestore";
 
 export default function LoginScreen() {
-  const { promptAsync } = useGoogleAuth();
+  const { signInWithGoogle } = useGoogleAuth();
   const router = useRouter();
 
   const [email, setEmail] = useState("");
@@ -154,7 +154,7 @@ export default function LoginScreen() {
 
         {/* Google Button */}
         <TouchableOpacity
-          onPress={() => promptAsync()}
+          onPress={() => signInWithGoogle()}
           className="w-full rounded-3xl py-4 items-center justify-center border"
           style={{
             borderColor: theme?.border || lightColors.border,

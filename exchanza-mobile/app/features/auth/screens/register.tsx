@@ -14,7 +14,8 @@ import { createUserIfNotExists } from "../service/user";
 import { useTheme } from "@/context/ThemeContext";
 
 export default function RegisterScreen() {
-  const { promptAsync } = useGoogleAuth();
+  //const { promptAsync } = useGoogleAuth();
+  const { signInWithGoogle } = useGoogleAuth();
   const router = useRouter();
   const { theme } = useTheme();
 
@@ -137,7 +138,7 @@ export default function RegisterScreen() {
 
         {/* Google Signup */}
         <TouchableOpacity
-          onPress={() => promptAsync()}
+          onPress={() => signInWithGoogle()}
           className="w-full rounded-3xl py-4 items-center justify-center border"
           style={{
             borderColor: theme?.border || lightColors.border,

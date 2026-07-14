@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "949037840576",
+    "firebase_url": "https://exchanza-1420-default-rtdb.firebaseio.com",
+    "project_id": "exchanza-1420",
+    "storage_bucket": "exchanza-1420.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:949037840576:android:a6ecc2d0f1c127f55e9525",
+        "android_client_info": {
+          "package_name": "com.anonymous.Exchanza"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "949037840576-adumav3f2nro4bkf8nkcgb38mckfbfna.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.anonymous.Exchanza",
+            "certificate_hash": "a177150b2788230b2a07e42b36b267013c869bec"
+          }
+        },
+        {
+          "client_id": "949037840576-aicibf01i0hk42ensu5k4ptudvbjlq7r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAnfAlHjs74hFaw8DhFhxsXgRn5-rjpXdg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "949037840576-aicibf01i0hk42ensu5k4ptudvbjlq7r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
