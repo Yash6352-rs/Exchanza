@@ -100,7 +100,7 @@ export const subscribeToPosts = (callback: (posts: any[]) => void) => {
                 // attach user data
                 userName: userData?.name || "User",
                 userAvatar: userData?.profileImage || "",
-                rating: userData?.rating || 4.5,
+                rating: userData?.rating || 0.0,
                 totalReviews: userData?.totalReviews || 0,
             };
         })

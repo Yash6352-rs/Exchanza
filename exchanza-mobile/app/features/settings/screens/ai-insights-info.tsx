@@ -79,7 +79,7 @@ export default function AIInsightsScreen() {
             </View>
 
             <ScrollView className="flex-1" showsVerticalScrollIndicator={false} 
-                contentContainerStyle={{ paddingBottom: 60}}
+                contentContainerStyle={{ paddingBottom: 20}}
             >
 
                 {/* Intro */}
@@ -252,11 +252,11 @@ export default function AIInsightsScreen() {
                     <View className="flex-1 ml-4">
                         <Text
                             style={{
-                                color: theme.text || lightColors.text,
+                                color: darkColors.text || lightColors.text,
                                 fontWeight: "700",
                                 fontSize: 12,
                                 letterSpacing: 1,
-                                marginBottom: 4,
+                                marginBottom: 5,
                             }}
                         >
                             PRO TIP

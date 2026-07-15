@@ -115,7 +115,7 @@ export default function SettingsScreen() {
                     }
                 }}
             />
-            <View className='h-20' />
+            <View className='h-8' />
         </ScrollView>
     </View>
   );

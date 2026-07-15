@@ -300,10 +300,11 @@ export default function ProfileScreen() {
               marginTop: 2,
               marginLeft: 3,
               marginRight: 3,
+              marginBottom: 7,
             }}
           >
             {userPosts.map((post: any) => (
-              <View key={post.id} style={{ width: 290, marginRight: 5 }}>
+              <View key={post.id} style={{ width: 302, marginRight: 5 }}>
                 <View className="border rounded-3xl" 
                   style={{ borderRadius: 20, height: 213, borderColor: lightColors.subText + "50" || theme?.subText + "50" }}
                 >

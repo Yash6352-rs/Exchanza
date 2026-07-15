@@ -375,7 +375,7 @@ export default function TradesScreen() {
       setRejectLoadingTradeId(rejectTradeId);
 
       setRejectModalVisible(false);
-      await rejectTradeAction(rejectTradeId);
+      await rejectTradeAction(rejectTradeId);+
 
       showToast("Trade rejected", "close-circle",theme?.error || lightColors.error);
       setRejectTradeId(null);

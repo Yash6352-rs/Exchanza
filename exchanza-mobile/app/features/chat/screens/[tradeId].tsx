@@ -139,12 +139,12 @@ export default function ChatScreen() {
                             }`} 
                             style={{ backgroundColor: isMe ? theme?.primary || lightColors.primary : theme?.secondary || lightColors.secondary }}
                         >
-                            <Text className="text-sm" style={{color: darkColors.text || lightColors.text,}}>
+                            <Text className="text-sm" style={{color: darkColors.text || lightColors.text}}>
                                 {item.text}
                             </Text>
 
                             {/* Timestamp */}
-                            <Text className="text-[10px] mt-1 text-right" style={{ color: isMe ? "#e0f2f1" : theme?.subText || lightColors.subText }}>
+                            <Text className="text-[10px] mt-1 text-right" style={{ color: isMe ? "#e0f2f1" : "#e0f2f1" }}>
                                 {getTimeAgo(item.timestamp)}
                             </Text>
                         </View>

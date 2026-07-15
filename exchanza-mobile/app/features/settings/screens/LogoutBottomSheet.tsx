@@ -29,7 +29,7 @@ export default function LogoutBottomSheet({visible, onClose}: any) {
         >
             <TouchableOpacity
                 activeOpacity={1}
-                className='rounded-t-3xl px-5 pt-4 pb-6'
+                className='rounded-t-3xl px-5 pt-4'
                 style={{ backgroundColor: theme?.card || lightColors.card }}
             >
                 {/* Handle */}

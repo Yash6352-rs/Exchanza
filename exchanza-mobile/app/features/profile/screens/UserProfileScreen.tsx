@@ -321,11 +321,12 @@ export default function UserProfileScreen() {
               gap: 8,
               marginTop: 2,
               marginLeft: 3,
-              marginRight: 3,
+              marginRight:34,
+              marginBottom: 20,
             }}
           >
             {userPosts.map((post: any) => (
-              <View key={post.id} style={{ width: 290, marginRight: 5 }}>
+              <View key={post.id} style={{ width: 302, marginRight: 5 }}>
                 <View className="border rounded-3xl" style={{ borderRadius: 20, height: 213, borderColor: lightColors.subText + "50" || theme?.subText + "50" }}>
                   <PostCard post={post} />
                 </View>
