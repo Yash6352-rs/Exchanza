@@ -136,26 +136,7 @@ Together, these modules create a complete ecosystem for managing skill and servi
 
 ## 📸 Screenshots 
 
-### Mobile Module
-
-### Authentication (Login Screen)
-<img width="1080" height="2412" alt="Screenshot_2026-06-04-14-23-24-41_9358374868c113ebc9525f75b12c111a" src="https://github.com/user-attachments/assets/279857d2-a7d9-408c-a514-f0d4ef510fb9" />
-
-### Home Feed
-<img width="1080" height="2412" alt="Screenshot_2026-06-04-14-29-54-23_9358374868c113ebc9525f75b12c111a" src="https://github.com/user-attachments/assets/536633ee-b4ee-4af6-8f39-0a2ae7c54e44" />
-
-### Trade Proposal
-<img width="1080" height="2412" alt="Screenshot_2026-06-04-14-29-57-57_9358374868c113ebc9525f75b12c111a" src="https://github.com/user-attachments/assets/49caf96a-bd01-4b4b-aea9-2028d54336e2" />
-
-### Create Post
-<img width="1080" height="2412" alt="Screenshot_2026-06-04-14-30-01-94_9358374868c113ebc9525f75b12c111a" src="https://github.com/user-attachments/assets/f3e81e2e-a96e-4019-8642-0f91c9848dec" />
-
-### Notification
-<img width="1080" height="2412" alt="Screenshot_2026-06-04-14-30-05-50_9358374868c113ebc9525f75b12c111a" src="https://github.com/user-attachments/assets/a83b7afa-56a4-4212-ab85-1905a9b22141" />
-
-### Profile Screen
-<img width="1080" height="2412" alt="Screenshot_2026-06-04-14-30-10-47_9358374868c113ebc9525f75b12c111a" src="https://github.com/user-attachments/assets/d106eb4a-4239-409c-a6f0-5f5270de0953" />
-
+All the Screenshots are in Output Folder 
 
 ---
 
