@@ -10,7 +10,7 @@ The **Admin Dashboard**, built with React.js for the web, provides centralized p
 
 Together, these modules create a complete ecosystem for managing skill and service exchanges while ensuring platform security, transparency, scalability, and a seamless user experience.
  
- ---
+ --- 
 
  Exchanza Ecosystem
 
