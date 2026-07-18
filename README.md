@@ -136,9 +136,9 @@ Together, these modules create a complete ecosystem for managing skill and servi
 
 ## 📸 Screenshots 
 
-All screenshots are available in the ###Output folder.
+All screenshots are available in the **Output folder**.
 
-You can also view them on ###Google Drive:
+You can also view them on **Google Drive**:
 https://drive.google.com/drive/folders/1DY-fjmTFbVdPTeCAtUiWdiov0HmJmKW-?usp=drive_link
 
 ---
